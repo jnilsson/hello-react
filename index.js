@@ -38,10 +38,17 @@ function Navbar() {
     )
 }
 
+function MainContent() {
+    return (
+        <h1>I'm learning React!</h1>
+    )
+}
+
 // Using ReactDom.render to put elements in the HTML Dom
 ReactDOM.render(
     <div>
         <Navbar />
+        <MainContent />
     </div>, 
     document.getElementById("root")
 )
